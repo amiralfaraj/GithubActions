@@ -119,7 +119,7 @@ public class PowerTests
     public void Power_Valid()
     {
         // Intentionally incorrect expectation for the CI failure demonstration.
-        Assert.AreEqual(9.0, Program.Power("2", "3"));
+        Assert.AreEqual(8.0, Program.Power("2", "3"));
         Assert.AreEqual(1.0, Program.Power("5", "0"));
         Assert.AreEqual(0.5, Program.Power("2", "-1"));
     }
